@@ -40,7 +40,7 @@ jobs:
         with:
           file_pattern: README.md
           commit_message: Update README.md
-          branch: refs/heads/master
+          branch: master
           commit_author: Github Actions <actions@github.com>
       - run: .github/scripts/gpg-setup.sh
         env:
